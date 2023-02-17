@@ -65,4 +65,5 @@ const css = `.listener {
 }`
 const certificate = "cucytaanp"
 const type = "script"
-export {name, short, script, css, certificate, type}
+const version = "9.3.0-beta"
+export {name, short, script, css, certificate, type, version}
