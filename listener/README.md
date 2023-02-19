@@ -1,7 +1,12 @@
 # LIstener Plugin
 Transcriber speech to text.
+## Description
+```sh
+listener [LANG]
+```
+Lang (Option) - Choice of spoken language. (Default: browser language)
 ## Version
-#### 9.3.0-beta
+#### 1.0.0
 ## Download
 ```
 tpm install terminal.orielhaim.tk/plugin/listener
