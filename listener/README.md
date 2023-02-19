@@ -1,12 +1,12 @@
 # Listener Plugin
-Transcriber speech to text.
+Speech to text translation.
 ## Description
 ```sh
 listener [LANG]
 ```
-Lang (Option) - Choice of spoken language. (Default: browser language)
+LANG *(Option)* - Choice of spoken language. (Default: browser language)
 ## Version
-#### 1.0.0
+#### 1.0.1
 ## Download
 ```
 tpm install terminal.orielhaim.tk/plugin/listener

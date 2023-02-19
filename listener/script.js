@@ -1,9 +1,13 @@
 const name = "listener";
 const short = "Speech to text translation";
+const description = `listener [LANG]
+    LANG (Option) - Choice of spoken language. (Default: browser language)<br>
+    <i>Read more <a link href="https://github.com/Vaxe-dev/plugins-for-terminal/tree/main/listener">here</a>.</i><hr>`
 const script = (cmd, op) => {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!SpeechRecognition) {
-    op.write(`<div>Your browser doesn't support SpeechRecognition.</div>`);
+    op.write(`<b error>Your browser doesn't support SpeechRecognition.</b><br>`,true);
+    op.next()
     return;
   }
   const voic = new SpeechRecognition();
@@ -68,5 +72,4 @@ const css = `.listener {
 }`;
 const certificate = "cucytaanp";
 const type = "script";
-const version = "1.0.0"
-export { name, short, script, css, certificate, type, version };
+export { name, short, description, script, css, certificate, type };
