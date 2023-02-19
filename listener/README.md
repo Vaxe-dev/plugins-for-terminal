@@ -1,4 +1,4 @@
-# LIstener Plugin
+# Listener Plugin
 Transcriber speech to text.
 ## Description
 ```sh
